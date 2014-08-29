@@ -8,24 +8,24 @@ HTML, BODY {
 }
 
 BODY {
-    font-family: arial;
+    font-family: arial, sans-serif;
+    font-size: 16px;
     position: relative;
+
 }
 
 .container {
     margin: 0 auto;
     overflow: hidden;
-    width: 300px;
-    height: 200px;
-    position: absolute;
-    left: 50%;
-    top: 40%;
-    margin-left: -150px;
-    margin-top: -100px;
+    width: 600px;
+    min-height: 200px;
+    position: relative;
+    top: 30%;
+
 }
 
 h1 {
-    font-size: 5em;
+    font-size: 4em;
     font-family: arial;
     color: darkcyan;
     margin-bottom: .1em;
@@ -39,10 +39,17 @@ h1 {
     transition: color 0.2s ease;
 }
 
-.intro {
+.pic {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.info {
+    display: inline-block;
+    vertical-align: middle;
     text-align: left;
     color: gainsboro;
-    vertical-align: bottom;
+    margin-left: 2em;
 }
 
 /*
@@ -50,6 +57,9 @@ h2, h3 {
 transition: color 0.2s ease;
 }
 */
+img {
+    width: 190px;
+}
 
 h1:hover {
     color: gainsboro;
