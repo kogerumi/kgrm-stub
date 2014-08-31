@@ -72,15 +72,9 @@ h1:hover .ext {
 a {
     color: darkcyan;
     text-decoration: none;
-    transition: color 0.1s ease;
+    transition: color 0.1s ease 1ms;
 }
 
 a:hover {
     color: #005e5e;
 }
-
-/*
-h1:hover ~ div h2,h1:hover ~ div h3 {
-	color: darkcyan;
-}
-*/
